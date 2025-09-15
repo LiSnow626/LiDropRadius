@@ -1,0 +1,13 @@
+name: LiDropRadius
+main: dev.liai.lidropradius.LiDropRadius
+version: 1.0.0
+api-version: 1.16
+author: LiSnow
+description: Настройка радиуса выпадения предметов с игрока при смерти
+
+commands:
+  lidropradius:
+    description: Главная команда плагина LiDropRadius
+    usage: /<command> reload
+    permission: lidropradius.reload
+    aliases: [ldr]
